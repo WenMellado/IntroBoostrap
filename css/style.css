@@ -1,0 +1,21 @@
+body{
+    background-color: #37517E;
+}
+
+header{
+    background-color: #37517E;
+}
+
+.navbar-custom{
+    background-color: #37517E;
+}
+
+.img-custom {
+    -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */
+}
+
+.text-color-custom{
+    color: #cecece;
+}

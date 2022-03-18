@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>2.15 Interfaces Frameworks CSS Boostrap</title>
+</head>
+<body class="container" >
+    <header class="d-flex justify-content-between align-items-center">
+        <span class="text-white fs-3 fw-bolder">ARSHA</span>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <a class="nav-link active mx-2" aria-current="page" href="#">About</a>
+                    <a class="nav-link active mx-2" aria-current="page" href="#">Services</a>
+                    <a class="nav-link active mx-2" aria-current="page" href="#">Portafolio</a>
+                    <a class="nav-link active mx-2" aria-current="page" href="#">Team</a>  
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Drop Down
+                        </a>
+                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                    <button type="button" class="btn btn-outline-primary rounded-pill text-white border-info px-4">Get Started</button>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main class="row pt-5 mt-5">
+        <div class="col-6 d-flex flex-column justify-content-center pe-5">
+            <h1 class="fs-1 fw-bolder text-white">
+                Better Solutions For Your Buisness
+            </h1>
+            <h3 class="fs-4 text-color-custom">
+                We are team of talented designers making websites with Boostrap
+            </h3>
+            <div class="d-flex align-items-center mt-5">
+                <button type="button" class="btn btn-info rounded-pill text-white px-4 py-2 me-4">Get Started</button>
+                <div class="d-flex align-items-center">
+                    <img class="me-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAEmUlEQVRIia2WbUyTVxTH//ehWFYoLVTKeGk7sOWlYLUzCxS1E4jJXCDbDCwQM8fYYH4jmGX60cTEoc5lc8mUCBI17oWxscWBe3G8jTFgyotIy2iLbaEgpQ4LAmJb7j5s3aprtRX+n57nPufc3733OfecQ+CnKKUSjd7ytn1uMf2+08m/u3CfAwBhnHWL64JZd3jhnCG5NK6aEGL2Zz7yGBjRGafKxswzJf0ao6z1N+16+/yiV1sel4OcLLltU6pEJ5VEn5VKomsJITRgsN44k222WI+cb+xUag0Wtj+7cCstKf7eay9t7ZfERx1MFAs7/AZrdJOVTa197zRc7o0NBPiwXn0xY3qneuMxRbL4g8eC+4ZNJ+sa2kp6Bwzc1UDdyti8Yf6Nwh21Srmk0nOc5fkyYpisOHXxyt61ggJAz4CB63LRUq3eYkmVxr3vHmfcD3rjTPalK30Huvv1vLWCunV1aCy8uX2wcsxsVT8AppSS8VszRxq+743x5lhZugvnTuzD4f0FEEQ82WHUf9cda7bY3qOUEuCfozaYrWXnvvplszeHSH4Ydm5LRyQ/DMkJMUhPEqGtR4vTF3/G8n1HQPDzjZ1boqP4bwE4wwCA3nirRKu3hHgz5oaGgL3uv1CIEfJRlJeJumPl2Lt7GxjyyFTwgIZ1E2yTxVYCAAylVNI3bJIGsnJCCBLFQpQX56CmqgxZz8r89h3QGpMopSJGo5/c196jiQoE7BYrKAhyWRwO7y/Ex4dehzhW8Fifli7Neq1hqpyxzy2k3Znzngb9VSiHjecUiTh1uBSHKnaDG+r1rwEA7POLsNpmFYzT5YpcFdVDgogwvPD8Jpw9Wo6CXRk+7ebu3otk7swt+l7eE0oUK0BpoRrrI71fPYfD+RTDMP5HZSByOFxwOl0+v7N4XM7SWgJXVlagM06jtr4NvmInOJi1xApimNm1gponb6OjdwTVn7XA4XD6tAsPC/mTxQvnDPHDOfmriezbs3dx/Q8zjp6+5HOXbkXwQhEl4A+w5NK4T3Zkysu++fFqwHd5YXEZw7oJnKhphsli88snR5VulUtjz7AIIZbL7YP6QMBOlwujY7dQU9+GrmujAS1WkSLSE0ImWAAgE0XXbUwRKYdGxv93tWbtC1i650AoJwSUUtycmMG3P11DfVMPKPXZUnlVuix++Zl4YS3g0YG0dg13HTz+hcqbw56Xt0KllGH05hSqP20JuCq5dexA8a/qjJTthBD6L3jMbFV//cPvn3/Z3OO1Jq9WxfkqS37ulqINEmEn4NGBJIqFHXnZiiqVUmZfa2imUjqfm5V+3A0FHuq5UqSik/0aU8IKXXmzZ436rkylbK6kYHvtxhTRR57j3tvb0fGKyx1D79Y3da+qvS3Ky5zeoUqrUsolHz78zWeiHjNb1eZJW9WFxk7ljdGJgAqJIlm0tOeVbf2ipwUHPI/XLzDwdxOoN02XGkzW0sERs6yl60aUr8zEDw9FblbajCJFrEsUR9UkJcTUPWpuv0sTpVSkNUyVW22zCvv8ssDhdLIBIJjFWuZx2beFkbzrqbK4akLIhD/z/QVr4s1hXCoY1QAAAABJRU5ErkJggg==">
+                    <span class="fs-5 fw-light text-white">
+                        Watch Video
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 d-flex justify-content-center align-items-center">
+            <img src="https://frameworkcss-cach.netlify.app/img/intro.png" class="img-fluid" alt="">
+        </div>
+    </main>
+    <footer class="fixed-bottom bg-white">
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <img src="https://frameworkcss-cach.netlify.app/img/img1.png" class="col-7 img-fluid img-custom" alt="">
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <img src="https://frameworkcss-cach.netlify.app/img/img2.png" class="col-7 img-fluid img-custom" alt="">
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <img src="https://frameworkcss-cach.netlify.app/img/img3.png" class="col-7 img-fluid img-custom" alt="">
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <img src="https://frameworkcss-cach.netlify.app/img/img4.png" class="col-7 img-fluid img-custom" alt="">
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <img src="https://frameworkcss-cach.netlify.app/img/img5.png" class="col-7 img-fluid img-custom" alt="">
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <img src="https://frameworkcss-cach.netlify.app/img/img6.png" class="col-7 img-fluid img-custom" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
